@@ -10,13 +10,14 @@ Machine Learning project predicting survival on the Titanic using decision trees
     * Understand feature importance and correlations.
 
 📁 Project Structure
-    Titanic_Survival_Prediction/
-    │
-    ├── Titanic_Survival_Prediction.ipynb    # Main Jupyter notebook
-    ├── data/                                # (Optional) Folder for raw or cleaned datasets
-    ├── images/                              # (Optional) Visualizations and plots
-    ├── README.md                            # Project overview and instructions
-    └── requirements.txt                     # Python dependencies (Optional)
+       Titanic_Survival_Prediction/
+       │
+       ├── Titanic_Survival_Prediction.ipynb    # Main Jupyter notebook
+       ├── data/                                # (Optional) Folder for raw or cleaned datasets
+       ├── images/                              # (Optional) Visualizations and plots
+       ├── README.md                            # Project overview and instructions
+       └── requirements.txt                     # Python dependencies (Optional)
+<img width="640" height="152" alt="image" src="https://github.com/user-attachments/assets/e6454aa8-ff21-4672-b592-fbc0631d5084" />
 
 🔍 Dataset
 The dataset used is the classic Titanic dataset from Kaggle, which contains data about passengers aboard the RMS Titanic and whether they survived.
