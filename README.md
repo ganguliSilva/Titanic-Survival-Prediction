@@ -14,7 +14,7 @@ Machine Learning project predicting survival on the Titanic using decision trees
 
 
 🔍 Dataset
-The dataset used is the classic [Titanic dataset]([link text](https://your-link-here.com) from Kaggle, which contains data about passengers aboard the RMS Titanic and whether they survived.
+The dataset used is the classic [Titanic dataset]([link text](https://www.kaggle.com/c/titanic/data) from Kaggle, which contains data about passengers aboard the RMS Titanic and whether they survived.
 
 
 
