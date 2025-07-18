@@ -120,5 +120,13 @@ Clean, modular notebook structure
   - Applied ML
   - EDA & visualization
   - Model selection
+  - Python coding best practices
 
-Python coding best practices
+📌 Requirements
+See [requirements.txt]().
+
+👤 Author
+Ganguli Silva
+[LinkedIn](www.linkedin.com/in/ganguli-silva-a0773b199) | [GitHub](https://github.com/ganguliSilva)
+
+
