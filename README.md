@@ -125,6 +125,12 @@ Clean, modular notebook structure
 📌 Requirements
 See [requirements.txt]().
 
+If you're running this in Google Colab or locally via virtualenv, this file helps others easily recreate your environment by running:
+
+```
+pip install -r requirements.txt
+```
+
 👤 Author
 Ganguli Silva
 [LinkedIn](https://www.linkedin.com/in/ganguli-silva-a0773b199/) | [GitHub](https://github.com/ganguliSilva)
