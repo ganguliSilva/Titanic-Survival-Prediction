@@ -19,6 +19,12 @@ The dataset used is the **Kaggle Titanic dataset**, which contains details about
 
 ---
 
+## 🎯 Goal
+
+Predict whether a passenger survived the Titanic disaster using supervised machine learning algorithms.
+
+---
+
 ## 🧼 Preprocessing & Feature Engineering
 
 - Handled missing values (mean/mode imputation)
@@ -99,32 +105,20 @@ jupyter notebook Titanic_Survival_Prediction.ipynb
 ```
 📂 Project Structure
 
-├── Titanic_Survival_Prediction.ipynb
-├── README.md
-├── requirements.txt (optional)
-└── dataset/
-    └── train.csv
-    
+<img width="293" height="130" alt="image" src="https://github.com/user-attachments/assets/ed42fdf4-e8db-4d4c-b3d0-571e0c4627b6" />
+
 🧠 Skills Demonstrated
-Data Cleaning & Preprocessing
-
+- Data Cleaning & Preprocessing
 Exploratory Data Analysis (EDA)
-
 Supervised Learning (Logistic Regression, Decision Tree, Random Forest)
-
 Model Evaluation & Interpretation
-
 Feature Importance Visualization
-
 Clean, modular notebook structure
 
 📌 Ideal for
-This project is an excellent demonstration of your knowledge in:
-
-Applied ML
-
-EDA & visualization
-
-Model selection
+- This project is an excellent demonstration of your knowledge in:
+  - Applied ML
+  - EDA & visualization
+  - Model selection
 
 Python coding best practices
