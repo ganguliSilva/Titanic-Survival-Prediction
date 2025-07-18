@@ -1,21 +1,130 @@
-# Titanic-Survival-Prediction
-Machine Learning project predicting survival on the Titanic using decision trees. Includes EDA, preprocessing, and model evaluation. (scikit-learn, pandas, decision trees).
+# 🚢 Titanic Survival Prediction - ML Project
 
-📌 Project Objectives:-
-    * Perform data cleaning and preprocessing on the Titanic dataset.
-    * Explore the dataset visually and statistically.
-    * Build a Decision Tree Classifier to predict survival.
-    * Evaluate the model using metrics like accuracy and the confusion matrix.
-    * Visualize the decision-making process using a decision tree plot.
-    * Understand feature importance and correlations.
+Predicting survival outcomes on the Titanic using supervised machine learning techniques. This classic binary classification problem leverages passenger data to train and evaluate multiple models, exploring both model performance and feature impact.
 
-📁 Project Structure
-<img width="640" height="152" alt="image" src="https://github.com/user-attachments/assets/e6454aa8-ff21-4672-b592-fbc0631d5084" />
+---
 
+## 📁 Dataset
 
-🔍 Dataset
-The dataset used is the classic ([Titanic dataset](https://www.kaggle.com/c/titanic/data) from Kaggle, which contains data about passengers aboard the RMS Titanic and whether they survived.
+The dataset used is the **Kaggle Titanic dataset**, which contains details about passengers such as:
+- **Pclass**: Ticket class (1st, 2nd, 3rd)
+- **Sex**
+- **Age**
+- **Fare**
+- **Embarked**: Port of Embarkation
+- **SibSp**: Number of siblings/spouses aboard
+- **Parch**: Number of parents/children aboard
 
+> 📌 Missing values in `Age`, `Embarked`, and `Fare` were handled appropriately through imputation and preprocessing.
 
+---
 
+## 🧼 Preprocessing & Feature Engineering
 
+- Handled missing values (mean/mode imputation)
+- Converted categorical variables using `LabelEncoder`
+- Dropped irrelevant features like `PassengerId`, `Name`, `Cabin`, and `Ticket`
+- Normalized the dataset for models that benefit from scaling
+
+---
+
+## 📊 Visualizations
+
+To better understand feature distributions and relationships:
+
+- 📈 Age distribution histogram
+- 🧍 Gender-based survival rates
+- 🌡 Correlation heatmap
+- 🌳 Decision tree visualization (with feature names)
+
+---
+
+## 🧪 Models & Evaluation
+
+Three models were trained and evaluated:
+
+### ✅ Logistic Regression
+- Used as a baseline linear classifier
+- Evaluated with:
+  - Accuracy
+  - Confusion Matrix
+  - Classification Report (Precision, Recall, F1-score)
+
+### 🌲 Decision Tree Classifier
+- Simple and interpretable model
+- Visualized using `sklearn.tree.plot_tree`
+- Evaluated using:
+  - Accuracy Score
+  - Confusion Matrix
+  - Feature Importance
+
+### 🌳 Random Forest Classifier
+- Ensemble method using multiple trees for better performance
+- Evaluated using:
+  - Accuracy Score
+  - Confusion Matrix
+  - Feature Importance
+
+---
+
+## 📌 Key Insights
+
+- **Sex** and **Pclass** are strong indicators of survival.
+- **Fare** shows a moderate positive correlation with survival.
+- **Decision Trees** offer explainability, while **Random Forests** often yield better accuracy.
+- Logistic Regression provides a good baseline but lacks the non-linear flexibility of tree-based models.
+
+---
+
+## 💻 Installation & Usage
+
+### 🔧 Requirements
+
+- Python 3.7+
+- scikit-learn
+- pandas
+- matplotlib
+- seaborn
+- numpy
+
+### 🚀 Run the notebook
+
+You can run the notebook using [Google Colab](https://colab.research.google.com/) or locally:
+
+```bash
+git clone https://github.com/your-username/titanic-survival-prediction.git
+cd titanic-survival-prediction
+pip install -r requirements.txt
+jupyter notebook Titanic_Survival_Prediction.ipynb
+📂 Project Structure
+cpp
+Copy
+Edit
+├── Titanic_Survival_Prediction.ipynb
+├── README.md
+├── requirements.txt (optional)
+└── dataset/
+    └── train.csv
+🧠 Skills Demonstrated
+Data Cleaning & Preprocessing
+
+Exploratory Data Analysis (EDA)
+
+Supervised Learning (Logistic Regression, Decision Tree, Random Forest)
+
+Model Evaluation & Interpretation
+
+Feature Importance Visualization
+
+Clean, modular notebook structure
+
+📌 Ideal for
+This project is an excellent demonstration of your knowledge in:
+
+Applied ML
+
+EDA & visualization
+
+Model selection
+
+Python coding best practices
