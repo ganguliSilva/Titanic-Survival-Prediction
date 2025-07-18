@@ -96,15 +96,15 @@ git clone https://github.com/your-username/titanic-survival-prediction.git
 cd titanic-survival-prediction
 pip install -r requirements.txt
 jupyter notebook Titanic_Survival_Prediction.ipynb
+```
 📂 Project Structure
-cpp
-Copy
-Edit
+
 ├── Titanic_Survival_Prediction.ipynb
 ├── README.md
 ├── requirements.txt (optional)
 └── dataset/
     └── train.csv
+    
 🧠 Skills Demonstrated
 Data Cleaning & Preprocessing
 
