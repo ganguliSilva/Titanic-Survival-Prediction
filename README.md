@@ -127,6 +127,6 @@ See [requirements.txt]().
 
 👤 Author
 Ganguli Silva
-[LinkedIn](www.linkedin.com/in/ganguli-silva-a0773b199) | [GitHub](https://github.com/ganguliSilva)
+[LinkedIn](https://www.linkedin.com/in/ganguli-silva-a0773b199/) | [GitHub](https://github.com/ganguliSilva)
 
 
